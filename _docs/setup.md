@@ -63,3 +63,30 @@ rmdir /s /q "C:\Users\jungsam\Local Sites\class101fromplanningtolaunch\app\wp-cl
 
 ## vscode 작업영역에 폴더추가
 C:\Users\jungsam\Local Sites\class101fromplanningtolaunch\app\public
+
+# 복사(macos)
+
+## local sites
+
+"""
+name: wp-class101-from-planning-to-launch
+user: master.vw
+password:
+email: jnjsoft.blog@gmail.com
+"""
+
+## files
+
+```sh
+cd "/Users/youchan/Local Sites/wp-class101-from-planning-to-launch/app"
+rm -rf "/Users/youchan/Local Sites/wp-class101-from-planning-to-launch/app/public/wp-content/themes/twentytwentythree"
+rm -rf "/Users/youchan/Local Sites/wp-class101-from-planning-to-launch/app/public/wp-content/themes/twentytwentytwo"
+
+github -e copyRepo -u jnjsoftblog -n wp-class101-from-planning-to-launch
+
+cp -R "/Users/youchan/Local Sites/wp-class101-from-planning-to-launch/app/wp-class101-from-planning-to-launch"/. "/Users/youchan/Local Sites/wp-class101-from-planning-to-launch/app/public/"
+rm -rf "/Users/youchan/Local Sites/wp-class101-from-planning-to-launch/app/wp-class101-from-planning-to-launch/"
+```
+
+## vscode 작업영역에 폴더추가
+"/Users/youchan/Local Sites/wp-class101-from-planning-to-launch/app/public/"

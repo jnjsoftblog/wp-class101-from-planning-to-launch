@@ -82,3 +82,69 @@
     - 'Uncategorized' 체크 해제
     - '공지사항' 체크
   - 'Save' 클릭
+
+
+# 012_02_05_5. 워드프레스의 기본 개념들을 둘러봅시다 2
+
+## [wp-admin](http://wp-class101-from-planning-to-launch.local/wp-admin/)
+
+### Posts / Add New Post(글 / 새 글 추가)
+
+#### title
+눈 오는 밤 포근한 방
+
+#### content
+눈 오는 밤 포근한 방에서 수필집을 읽는 모습을 그려 봤습니다.
+옆 방석에는 뽀삐가 잠들어 쌔근댔고, 아직 오지 않은 크리스마스를 기다리는 트리가 있었습니다.
+절로 따스한 마음에 매일이 오늘만 같으면 좋겠다는 생각을 했습니다.
+
+#### 이미지 추가
+- '+' 클릭
+  - 'image(이미지)' / upload(업로드)
+  - 'sample_1 크리스마스.jpg'
+
+#### category 설정
+- '그림일기'
+
+#### 공개 저장
+- 'Publish' 클릭
+
+### 이미지 업로드
+
+- Media / Add New Media File / Select Files
+
+### Posts / Add New Post(글 / 새 글 추가)
+
+#### title
+북극곰
+
+#### content
+엄마 북극곰, 아기 북극곰과 함께 웅크려 잠드는 꿈을 꿨습니다.
+북극곰이 춥다고 집에 들여보내 달라고 했어요.
+아이가 추워 보여서 얼른 문을 열었지요.
+깨어보니 우스웠지만 그림으로 남겼습니다.
+아마 얼음이 녹아 고통받고 있는 북극곰 이야기를 본 것이 기억에 남았나 봅니다.
+
+#### 이미지 추가
+- '+' 클릭
+  - 'image(이미지)' / 'media library(미디어 라이브러리)'
+  - 검색 'sample_4'
+
+#### category 설정
+- '그림일기'
+
+#### 공개 저장
+- 'Publish' 클릭
+
+
+### 이미지 정보 변경
+
+- Media / Library
+  - '_4' 검색
+  - 'sample_4.jpg' 클릭
+  - Title: '북극곰'
+  - 'X' 클릭
+
+- Media / Library
+  - '북극곰' 검색
+  - 'sample_4.jpg' 검색됨
